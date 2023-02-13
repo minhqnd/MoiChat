@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://api.simsimi.vn/v2/simtalk"
+url = "https://api.simsimi.vn/v1/simtalk"
 
 def send(message):
   payload = {
